@@ -1,0 +1,86 @@
+html {
+    font-family: sans-serif;    
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#barranav {
+    background-color: rgb(40, 36, 36);
+    width: 100%;
+}
+#barranav ul {
+    list-style: none;
+    padding-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+#barranav ul li {
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+#barranav ul li a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+#barranav ul li a:hover {
+    background-color: rgb(245, 176, 245);
+}
+form{
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#label{
+    margin: 5px;
+    display: flex;
+    text-align: left;
+}
+#nome, #email{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(225, 190, 219);
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+}
+input{
+    display: block;
+    margin: 10px auto;
+}
+#mensagem{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(225, 190, 219);
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+}
+#button{
+    height: 30px;
+    width: 70px;
+    border-radius: 0px;
+    margin: 25px auto;
+    background-color: rgb(255, 93, 188);
+    border: none;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: rgb(225, 93, 185);
+    box-shadow: 1px 1px 6px black;
+}

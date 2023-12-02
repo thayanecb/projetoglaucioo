@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <script src="jquery-3.6.4.min.js" defer></script>
+    <script src="api.js" defer></script>
+    <title>Admin</title>
+</head>
+<body>
+    <nav id="barranav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>|</li>
+            <li><a href="contato.html">Contato</a></li>
+            <li>|</li>
+            <li><a href="admin.html">Área Admin</a></li>
+        </ul>
+</nav>
+
+    <form>
+
+        <h2>Área Administrativa</h2>
+        <label>Login</label>
+        <input type="text" placeholder="Digite seu login" id="login" autocomplete="off" required>
+        <label>Senha</label>
+        <input type="password" placeholder="Digite sua senha" id="senha" autocomplete="off" required>
+        <button type="submit" onclick="validarUsuario(); return false" id="button">Logar</button>
+
+    </form>
+</body>
+</html>
